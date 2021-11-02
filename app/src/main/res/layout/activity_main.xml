@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#f9f9f9"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Primer número"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/firstNumber"
+        android:layout_width="38dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Segundo número"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/secondNumber"
+        android:layout_width="38dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="59dp">
+
+        <Button
+            android:id="@+id/subtractButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#f0f0f0"
+            android:text="Restar"
+            android:textColor="#000"
+            app:cornerRadius="15dp"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/adderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#f0f0f0"
+            android:text="Sumar"
+            android:textColor="#000"
+            app:cornerRadius="15dp"
+            app:iconTint="#000000" />
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Resultado: "
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/resultBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text=""
+        android:textSize="25dp" />
+
+</LinearLayout>
