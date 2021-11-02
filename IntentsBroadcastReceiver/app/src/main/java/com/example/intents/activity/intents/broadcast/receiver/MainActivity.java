@@ -28,13 +28,14 @@ public class MainActivity extends AppCompatActivity {
         tickReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
-                if (intent.getAction() == Intent.ACTION_TIME_TICK) {
+                if (intent.getAction() == Intent.ACTION_TIME_TICK && Calendar.getInstance().get(Calendar.MINUTE) > 9) {
                     hourTextView.setText(String.format("%d", Calendar.getInstance().get(Calendar.HOUR_OF_DAY)));
                     minuteTextView.setText(String.format("%d", Calendar.getInstance().get(Calendar.MINUTE)));
 
+                } else if (intent.getAction() == Intent.ACTION_TIME_TICK && Calendar.getInstance().get(Calendar.MINUTE) < 10) {
+                    hourTextView.setText(String.format("%d", Calendar.getInstance().get(Calendar.HOUR_OF_DAY)));
+                    minuteTextView.setText(String.format("0%d", Calendar.getInstance().get(Calendar.MINUTE)));
                 }
-
-
             }
         };
         registerReceiver(tickReceiver, new IntentFilter(Intent.ACTION_TIME_TICK));
