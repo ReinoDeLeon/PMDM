@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 import java.util.Calendar;
@@ -40,11 +41,12 @@ public class MainActivity extends AppCompatActivity {
         };
         registerReceiver(tickReceiver, new IntentFilter(Intent.ACTION_TIME_TICK));
 
-    }
+    };
 
     @Override
     protected void onStop() {
         super.onStop();
+        Log.w(this.getClass().getName(), "onStop()");
         unregisterReceiver(tickReceiver);
     }
 }
