@@ -68,6 +68,24 @@
             android:textColor="#000"
             app:cornerRadius="15dp"
             app:iconTint="#000000" />
+        <Button
+            android:id="@+id/multiplyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#f0f0f0"
+            android:text="Multiplicar"
+            android:textColor="#000"
+            app:cornerRadius="15dp"
+            app:iconTint="#000000" />
+        <Button
+            android:id="@+id/divideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#f0f0f0"
+            android:text="Dividir"
+            android:textColor="#000"
+            app:cornerRadius="15dp"
+            app:iconTint="#000000" />
     </TableRow>
 
     <TextView
