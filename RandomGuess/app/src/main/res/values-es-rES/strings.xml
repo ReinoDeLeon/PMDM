@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Introduce un número entre 0 y 9 y comprueba si lo has adivinado</string>
+    <string name="number">Numero...</string>
+    <string name="guessed">Enhorabuena ¡Adivinaste el número!</string>
+    <string name="enter_button">Probaré mi suerte</string>
+    <string name="unguessed_game">Lo siento, sigue intentándolo</string>
+    <string name="number_format_error">Por favor introduzca un número</string>
+    <string name="no_more_tries">Has perdido todas las oportunidades</string>
+    <string name="user_number">Tu número era:</string>
+    <string name="app_number">El número a adivinar era:</string>
+    <string name="number_of_tries">El número de intentos es:</string>
+    <string name="restart">Aplicación reiniciada</string>
+    <string name="restart_text">Haga click en el botón para reiniciar la app</string>
+    <string name="result_number_of_tries">El número de intentos ha sido de:</string>
+    <string name="unguessed">"Has perdido la partida, el número era: "</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">RandomGuess</string>
+    <string name="title">Pick a number between 0 and 9 to see if you guessed it right</string>
+    <string name="number">Number...</string>
+    <string name="guessed">Congratulations you have guessed the number!!</string>
+    <string name="enter_button">Let\'s try</string>
+    <string name="unguessed_game">Sorry, keep trying</string>
+    <string name="number_format_error">Please enter a number</string>
+    <string name="no_more_tries">Sorry you have lost all your tries</string>
+    <string name="user_number">Your number was:</string>
+    <string name="app_number">The number to guess was:</string>
+    <string name="number_of_tries">Your number of tries is:</string>
+    <string name="restart">App restarted</string>
+    <string name="restart_text">Click on the button again to restart the app</string>
+    <string name="result_number_of_tries">The number of tries was:</string>
+    <string name="unguessed">You have lost the game, the number to guess was:</string>
+</resources>
