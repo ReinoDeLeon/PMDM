@@ -14,4 +14,5 @@
     <string name="restart_text">Click on the button again to restart the app</string>
     <string name="result_number_of_tries">The number of tries was:</string>
     <string name="unguessed">You have lost the game, the number to guess was:</string>
+    <string name="app_id" translatable="false">552773133433</string>
 </resources>
